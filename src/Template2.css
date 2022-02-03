@@ -1,9 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body {
-  margin: 0%;
-}
+
 #class {
   padding-bottom: 0px;
   margin: 0%;
@@ -18,13 +16,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
   overflow: hidden;
   border: solid gray 1px;
   background-color: black;
   padding-inline: white 1px;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 
 li {
@@ -75,17 +72,13 @@ h2.aside {
   float: right;
   background-color: lightgray;
   overflow: hidden;
-  margin: 0%;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+  margin-right: 5px;
 }
-#footer {
+.footer {
   margin: 0%;
   padding: 10px;
   padding-right: 20px;
   border: 1px solid rgb(222, 222, 222);
   background-color: lightgray;
   text-align: right;
-  overflow: hidden;
 }
