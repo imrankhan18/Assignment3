@@ -72,3 +72,24 @@
     .content {
     text-align: center;
     }
+    #footer{
+        padding: 2%;
+      }
+      #footer_1{
+        float:left;
+      }
+      #footer_2{
+        float: right;
+      }
+      @media only screen and (max-width: 600px) {
+        #headings{
+            display: block;
+        }
+        .head_1{
+            width: auto;
+        }
+        #banner p {
+            width: 64%;
+            
+          }
+      }
