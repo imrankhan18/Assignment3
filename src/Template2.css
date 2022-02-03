@@ -54,4 +54,44 @@
           }
         
     
+    .heading{
+        
+        color:rgba(10, 90, 115);
+        margin-top:10px;
+        margin-bottom:4px;
+    }
+    h2.aside{
+        color:rgb(15,95,120);
+    }
+
+    .container{
+        margin-left: 5px;
+        overflow:hidden;
+        width:100%;
+        
+    }
+    .col-left{
+        width:60%;
+        padding-left: 2px;
+        float:left;
+        background-color: white;
+        overflow:hidden;
+        margin:0%;
+
     
+    }
+    .col-right{
+        width:35%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float:right;
+        background-color: lightgray;
+        overflow: hidden;
+        margin:0%;
+        position:sticky;
+        position: -webkit-sticky;
+        top: 0;
+
+    }
+
+ 
